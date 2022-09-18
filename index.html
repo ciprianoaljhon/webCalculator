@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/main.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <script defer src="/src/script.js"></script>
+    <title>Document</title>
+</head>
+<body class="bg-black text-gray-300 font-mono text-xl flex flex-col items-center justify-center h-screen">
+    <main class="flex flex-col w-max p-4 bg-dark-200 rounded-xl gap-8 max-w-xs break-words">
+        <div id="inputs" class="min-h-[5rem] bg-dark-100 rounded-xl p-2 text-end tracking-widest">
+            <h1 data-input="temp-answer" class="text-base "></h1>
+            <h1 data-input="inputs-answer" class="text-3xl"></h1>
+        </div>
+        <div id="keys" class="grid grid-cols-4 w-max gap-2">
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">1</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">2</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">3</button>
+            <button data-type="arithmetic-operations" class="bg-dark-100 p-4 rounded-2xl text-lime-400">÷</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">4</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">5</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">6</button>
+            <button data-type="arithmetic-operations" class="bg-dark-100 p-4 rounded-2xl text-lime-400">x</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">7</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">8</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">9</button>
+            <button data-type="arithmetic-operations" class="bg-dark-100 p-4 rounded-2xl text-lime-400">-</button>
+            <button class="bg-dark-100 p-4 rounded-2xl text-red-500">DEL</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">0</button>
+            <button data-type="num-key" class="bg-dark-100 p-4 rounded-2xl">.</button>
+            <button data-type="arithmetic-operations" class="bg-dark-100 p-4 rounded-2xl text-lime-400">+</button>
+            <button class="bg-dark-100 h-12 rounded-2xl text-red-500 col-span-2 w-full">AC</button>
+            <button class="bg-dark-100 h-12 rounded-2xl text-lime-400 col-span-2 w-full">=</button>
+        </div>
+    </main>
+    <footer class="italic pt-10">Created by <em class="text-cyan-300">Aljhon</em></footer>
+</body>
+</html>
